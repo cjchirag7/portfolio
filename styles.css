@@ -1,5 +1,8 @@
 body {
-    font-size: .875rem;
+    font-size: 0.96rem;
+    width: 100vw; 
+    z-index:0;
+    background-color: #fffdd0;
     overflow-x: hidden;  
   }
 
@@ -21,5 +24,56 @@ body {
   border: 2px solid #353332;
 }
 
+header{
+  height: 100vh !important;
+}
 
+.navbar{
+  padding-top: 0px !important;
+  padding-bottom: 0px !important;
+}
+
+.navbar-dark {
+  transition:500ms ease;
+ background-color: darkslategray; 
+ z-index: 2;
   
+ }
+
+.trans{
+  background: transparent;
+ }
+ 
+.trans:hover{
+  background: darkslategray; 
+  
+      opacity: 0.7;
+  }
+  
+#arrow{
+  position: fixed;
+	bottom: 5%;
+	right: 4%;
+	cursor: pointer;
+	font-size: 36px;
+	z-index: 999;
+	color: #F06060;
+}
+
+#tit{
+  color: white;
+}
+
+a:hover{
+  color: white;
+  text-decoration: none !important;
+}
+
+#option{
+  color: white;
+  opacity: 0.7;
+}
+#option:hover{
+  color: white;
+  opacity: 1;
+}
