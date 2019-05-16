@@ -1,3 +1,4 @@
+
 body {
     min-width: 100vw; 
     z-index:0;
@@ -24,7 +25,7 @@ body {
 }
 
 header{
-  height: 100vh !important;
+  min-height: 100vh !important;
   font-size: 0.92rem;
 }
 
@@ -84,7 +85,7 @@ header>.container{
 
 #pic{
   height: 250px;
-  float: right;
-  padding-top: 10px;
+  display: block;
+  margin: auto;
   border-radius: 130px;
 }
