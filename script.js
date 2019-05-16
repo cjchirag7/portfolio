@@ -8,7 +8,7 @@ function topFunction() {
       document.getElementById("arrow").style.display = "none";
     }
     var nav=document.getElementByClass("navbar");
-    if(document.body.scrollTop() < window.innerHeight-50) {
+    if(document.body.scrollTop() < window.innerHeight-100) {
     nav.classList.add('trans');
     } else {
       nav.classList.remove('trans');
@@ -21,7 +21,7 @@ function topFunction() {
 
     $('[data-toggle="tooltip"]').tooltip();
 $(window).scroll(function(){
-if($(this).scrollTop() < window.innerHeight-50) { 
+if($(this).scrollTop() < window.innerHeight-100) { 
       $('.navbar').addClass('trans');
   } else {
       $('.navbar').removeClass('trans');
