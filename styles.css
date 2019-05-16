@@ -93,3 +93,12 @@ header>.container{
   padding: 5px;
 }
 
+.break-word {
+  word-wrap: break-word;
+}
+
+.footer{
+  background-color:yellow;
+  margin:0px auto;
+  padding: 20px 5px 20px 0px;
+}
