@@ -1,7 +1,3 @@
-*{
-  padding: 0;
-  margin: 0;
-}
 body {
     min-width: 100vw; 
     z-index:0;
@@ -93,6 +89,7 @@ header>.container{
   border-radius: 130px;
 }
 
-#about{
+#about,#projects{
   padding: 5px;
 }
+
