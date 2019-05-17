@@ -5,6 +5,7 @@ body {
     overflow-x: hidden;  
   }
 
+  @media only screen and  (min-width: 1199.97px) { 
   #thin::-webkit-scrollbar-track
 {
   -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
@@ -22,7 +23,7 @@ body {
   background-color: #353332;
   border: 2px solid #353332;
 }
-
+  }
 header{
   min-height: 100vh !important;
   font-size: 0.92rem;
