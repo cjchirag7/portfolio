@@ -1,7 +1,7 @@
 /*
 =====================================================================
 *   Ceevee v1.0 Layout Stylesheet
-*   url: styleshout.com
+*   url: styleshout.com`
 *   03-18-2014
 =====================================================================
 
@@ -52,7 +52,7 @@ header .banner {
    vertical-align: middle;
    margin: 0 auto;
    width: 85%;
-   padding-bottom: 30px;s
+   padding-bottom: 30px;
    text-align: center;
 }
 
@@ -471,16 +471,13 @@ ul#nav li.current a { color: #F06000; }
    font-size: 18px;
    line-height: 30px;
    text-align: center;
-
    opacity: 0;
 	-moz-opacity: 0;
 	filter:alpha(opacity=0);
-
    -webkit-transition: opacity 0.3s ease-in-out;
 	-moz-transition: opacity 0.3s ease-in-out;
 	-o-transition: opacity 0.3s ease-in-out;
 	transition: opacity 0.3s ease-in-out;
-
    position: absolute;
    top: 50%;
    left: 50%;
