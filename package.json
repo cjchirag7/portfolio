@@ -1,36 +1,27 @@
 {
   "name": "portfolio",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.html",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@material-ui/core": "^4.11.0",
+    "@material-ui/icons": "^4.9.1",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-scripts": "2.1.1"
+  },
   "scripts": {
-    "start": "npm run lite",
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "lite": "lite-server",
-    "clean": "rimraf dist",
-    "imagemin": "imagemin images/* -o dist/images",
-    "usemin": "usemin index.html -d dist --htmlmin -o dist/index.html",
-    "build": "npm run clean && npm run imagemin && npm run usemin"
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/cjchirag7/portfolio.git"
+  "eslintConfig": {
+    "extends": "react-app"
   },
-  "keywords": [
-    "website"
-  ],
-  "author": "cjchirag7",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/cjchirag7/portfolio/issues"
-  },
-  "homepage": "https://github.com/cjchirag7/portfolio#readme",
-  "devDependencies": {
-    "cssmin": "^0.4.3",
-    "htmlmin": "0.0.7",
-    "lite-server": "^2.4.0",
-    "rimraf": "^2.6.3",
-    "uglifyjs": "^2.4.11",
-    "usemin-cli": "^0.5.1"
-  }
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
 }
