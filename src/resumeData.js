@@ -98,6 +98,10 @@ let resumeData = {
           img: '/images/c.png',
           name: 'C',
         },
+        {
+          img: '/images/ts.png',
+          name: 'Typescript',
+        },
       ],
     },
     {
