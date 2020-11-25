@@ -64,7 +64,7 @@ let resumeData = {
       position: 'Software Development Intern',
       duration: 'March 2020 - May 2020',
       desc:
-        'An internship to develop updates for a React Native and redux based audiobook app - ‘PaperVoice’. My job was to develop a feature for users to manage bookmarks and download an audiobook. I also developed the logic and UI for the music screen in the app and the notification panel, with play, pause, forward and backward options.',
+        'Developed features for \'PaperVoice\', a cross-platform audiobook application. Features developed included bookmark management, audiobook review system, payment gateway integration & the ability to download an audiobook. I also developed the logic and UI for the music screen in the app and the notification panel, with play, pause, fast forward and rewind options.',
       companyLink: 'https://www.deepmoth.ai/',
     },
     {
@@ -272,22 +272,38 @@ let resumeData = {
       },
     },
     {
-      title: 'Brick Breaker Game',
+      title: 'Chatroom Application',
       intro:
-        'A simple brick breaker game using vanilla JS and canvas from HTML5',
-      des: 'Rules of the game :',
+        'A multi-threaded client-server chat application written in C++ that uses sockets to communicate.',
+      des: 'The app has the following features :',
       points: [
-        'There are 2 types of bricks - red brick breaks in 2 hits and blue brick breaks in a single hit.',
-        'The user has 3 lives.',
-        ' The score is calculated using the number of successful hits made by the user, before losing all his lives',
+        'Users can send and receive messages simultaneously',
+        'Multiple users can send messages simultaneously',
       ],
-      imgurl: '/images/portfolio/brickgame.png',
-      techstack: ['JavaScript', 'HTML', 'CSS'],
+      imgurl: '/images/portfolio/chatroom.png',
+      techstack: ['C++','Multi-threading','Sockets'],
       links: {
-        launch: 'https://cjchirag7.github.io/break_the_brick/',
-        github: 'https://github.com/cjchirag7/break_the_brick',
+        launch: 'https://github.com/cjchirag7/chatroom-cpp/blob/main/screenshot.png',        
+        github: 'https://github.com/cjchirag7/chatroom-cpp',
       },
     },
+    // {
+    //   title: 'Brick Breaker Game',
+    //   intro:
+    //     'A simple brick breaker game using vanilla JS and canvas from HTML5',
+    //   des: 'Rules of the game :',
+    //   points: [
+    //     'There are 2 types of bricks - red brick breaks in 2 hits and blue brick breaks in a single hit.',
+    //     'The user has 3 lives.',
+    //     ' The score is calculated using the number of successful hits made by the user, before losing all his lives',
+    //   ],
+    //   imgurl: '/images/portfolio/brickgame.png',
+    //   techstack: ['JavaScript', 'HTML', 'CSS'],
+    //   links: {
+    //     launch: 'https://cjchirag7.github.io/break_the_brick/',
+    //     github: 'https://github.com/cjchirag7/break_the_brick',
+    //   },
+    // },
     {
       title: 'IIT(ISM) Gymkhana website',
       intro:
